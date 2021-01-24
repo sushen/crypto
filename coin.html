@@ -1,0 +1,27 @@
+<html>
+<script>
+
+var apikey = {
+    key:'90cfef0b-6b58-4768-ac3b-cddf200f5867'
+}
+    
+request('GET','https://pro-api.coinmarketcap.com/v1/global-metrics/quotes/latest?CMC_PRO_API_KEY=' + apikey.key)
+.then((r1) => {
+    var x1 = JSON.parse(r1.target.responseText);
+    console.log(x1.data.quote.USD.total_market_cap);
+    console.log(X1);
+}).catch(err => {
+    console.log(err);
+})  
+    
+function request(method, url) {
+        return new Promise(function (resolve, reject) {
+            var xhr = new XMLHttpRequest();
+            xhr.open(method, url);
+            xhr.onload = resolve;
+            xhr.onerror = reject;
+            xhr.send();
+        });
+}
+</script>
+</html>
