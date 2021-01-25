@@ -13,4 +13,5 @@ steps:
   video: https://www.youtube.com/embed/gLQRpEpptKk
 
 
-[![Youtube Corona](https://user-images.githubusercontent.com/4492335/78470086-6ee3e080-7748-11ea-9a54-f224b28dc42d.png)](https://www.youtube.com/playlist?list=PLSQ_pVMGfBaPipBOXnCze267aS8EPxe8_)
+
+[![trade cryptocurrencies](https://user-images.githubusercontent.com/4492335/105667008-c1270580-5f04-11eb-8e28-6ec4d5cd205f.jpeg)](https://www.youtube.com/playlist?list=PLSQ_pVMGfBaPipBOXnCze267aS8EPxe8_)
